@@ -21,6 +21,7 @@ int main() {
            siSysInfo.lpMaximumApplicationAddress);
     printf("  Active processor mask: %u\n",
            siSysInfo.dwActiveProcessorMask);
+    
     HW_PROFILE_INFO   HwProfInfo;
     if (!GetCurrentHwProfile(&HwProfInfo))
     {
